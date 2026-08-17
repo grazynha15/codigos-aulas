@@ -11,10 +11,7 @@ while True:
         print(produtos)
         break
 
-    elif produto == "remover":
-        produto_remover =input("digite o nome do produto que deseja remover:")
-        produtos.remove(produto_remover)
-
+   
     else:
         produtos.append(produto)
      print(produtos)
@@ -22,7 +19,5 @@ while True:
 
 
 
-    if produto == ("remover"):
-        produto_remover = input("Digite o nome do produto:")
-        produtos.remove(produto_remover)
+   
 
