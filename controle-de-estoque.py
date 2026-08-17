@@ -25,4 +25,3 @@ while True:
     if produto == ("remover"):
         produto_remover = input("Digite o nome do produto:")
         produtos.remove(produto_remover)
-
